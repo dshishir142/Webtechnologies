@@ -1,0 +1,20 @@
+p{
+	text-align:center;
+				}
+	a:link{
+		color:blue;
+		text-decoration:none;
+		font-size:150%;
+						}
+	a:visited{
+		color:blue;
+				}
+	a:hover{
+		color:purple;
+				}
+	a:active{
+		color:red;
+				}
+	body{
+		color:rgb(140, 45, 27);
+				}
