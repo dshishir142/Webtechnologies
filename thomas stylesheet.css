@@ -1,0 +1,12 @@
+td,tr,th{
+	border:2px solid silver;}
+a:link{
+	color:black;
+	text-decoration:none;
+	}
+a:hover{
+	color:blue;
+	}
+a:active{
+	color:green;
+	}
