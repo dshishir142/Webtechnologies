@@ -1,0 +1,76 @@
+div{
+    color:white;
+    background-color:rgb(109,151,115);
+    background-size: cover;
+}
+.h1{
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+    top:40px;
+    left:150px;
+    font-size:400%;
+}
+.h2{
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+    top:50px;
+    right:185px;
+    font-size: 150%;
+}
+img{
+    max-width: 100%;
+    position:absolute;
+    top:340px;
+    left:150px;
+    width:1200px;
+}
+body{
+    background-color:rgb(109,151,115);
+}
+/*for laptop*/
+@media screen and (min-width:769px) and (max-width:1024px){  
+    div{
+        color:white;
+        background-color:rgb(109,151,115);
+        background-size: cover;
+    }
+    .h1{
+        max-width: 40%;
+        height: auto;
+        position: absolute;
+        top:40px;
+        left:150px;
+        font-size:400%;
+    }
+    .h2{
+        max-width: 40%;
+        height: auto;
+        position: absolute;
+        top:50px;
+        right:185px;
+        font-size: 150%;
+    }
+    img{
+        max-width: 100%;
+        position:absolute;
+        top:340px;
+        left:150px;
+        width:1200px;
+    }
+    body{
+        background-color:rgb(109,151,115);
+    }
+}
+/*for mobile*/
+@media screen and (min-width:320px) and (max-width:480px){
+    div{
+        color:white;
+        background-color:rgb(180, 40, 33);
+        background-size: cover;
+    }
+    body{
+        background-color:rgb(180, 40, 33);
+    }
+}
